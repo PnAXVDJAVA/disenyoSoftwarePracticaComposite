@@ -16,7 +16,7 @@ public class Rectangulo extends FormaComponent {
 	
 	@Override
 	public void dibuja() {
-		System.out.println( "Rectangulo | Pos: ( " + this.x1 + ", " + this.y1 + " ), (" + this.x2 + ", " + this.y2 + ")" );
+		System.out.println( "Rectangulo | Pos: (" + this.x1 + ", " + this.y1 + "), (" + this.x2 + ", " + this.y2 + ")" );
 	}
 	
 	@Override

@@ -25,10 +25,11 @@ public class Forma extends FormaComponent {
 	
 	@Override
 	public void dibuja() {
-		System.out.println();
+		System.out.println( "---- Forma: " + this.nombre + "----" );
 		for (FormaComponent fc : componentes) {
 			fc.dibuja();
 		}
+		System.out.println( "--- FIN FORMA: " + this.nombre + "----" );
 	}
 	
 	@Override 
